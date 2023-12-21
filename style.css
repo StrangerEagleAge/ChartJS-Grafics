@@ -1,0 +1,77 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #151515;
+	color: #fff;
+	width: 100%;
+	height: auto;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+
+.chart {
+	width: 100%;
+	height: 100vh;
+}
+
+.chart__block {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	gap: 50px;
+}
+
+.chart__text {
+	display: flex;
+	flex-direction: column;
+
+	color: rgb(255, 255, 255);
+}
+
+.graf {
+	/*
+	width: 100%;
+	height: 100vh;
+	*/
+	width: 500px;
+	height: auto;
+	/*
+	padding: 0px 0px 0px 50px;
+	*/
+}
+
+/*
+canvas {
+	width: 100px;
+	height: 100px;
+}
+*/
+
+@media (max-width: 920px) {
+	.chart__block {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.chart {
+		margin-bottom: 150px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.container {
+		width: 95%;
+		margin: 0 auto;
+	}
+}
